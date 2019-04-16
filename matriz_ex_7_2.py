@@ -2,7 +2,7 @@ def exibir_matriz(m):
     for l in range(len(m)):
         linha = ""
         for c in range(len(m[l])):
-            linha += str(m[l][c]).zfill(2) + " "
+            linha += str(m[l][c]) + " "
         print("[{}]".format(linha[:-1]))
         
 c = int(input("Digite a quantidade de colunas que deseja: "))
