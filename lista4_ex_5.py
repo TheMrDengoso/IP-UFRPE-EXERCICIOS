@@ -13,21 +13,19 @@ texto = str(input("Digite um texto qualquer: "))
 espaço = texto.count(" ")
 print(espaço)
 qtd_a = len(vogais_a)
+qtd_e = len(vogais_e)
+qtd_i = len(vogais_i)
+qtd_o = len(vogais_o)
+qtd_u = len(vogais_u)
 for i in range(qtd_a):
-  a += texto.count(vogais[i])
+  a += texto.count(vogais_a[i])
 for i in range(qtd_e):
-  e += texto.count(vogais[i])
+  e += texto.count(vogais_e[i])
 for i in range(qtd_i):
-  i += texto.count(vogais[i])
+  i += texto.count(vogais_i[i])
 for i in range(qtd_o):
-  o += texto.count(vogais[i])
-for i in range(qtd_u)
-  u += texto.count(vogais[i])
-
-
-
-
-
-
+  o += texto.count(vogais_o[i])
+for i in range(qtd_u):
+  u += texto.count(vogais_u[i])
 
 print("Quantidade de vogais A ={} \nQuantidade de vogais E ={} \nQuantidade de vogais I ={} \nQuantidade de vogais O = {} \nQuantidade de vogais U = {}".format(a,e,i,o,u))
